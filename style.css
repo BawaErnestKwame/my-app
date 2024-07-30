@@ -17,6 +17,7 @@ html{
     width: 100%;
     height: 76vh;
     background-color: rgba(112, 110, 110, 0.973);
+   padding-top: 60px;
 }
 
 nav{
@@ -31,6 +32,7 @@ nav{
     top: 0;
     right: 0;  
     left: 0;
+    z-index: 999;
 
 }
 
@@ -64,7 +66,7 @@ nav ul li a{
 }
 
 .text h2{
-    font-size: 3.5rem;
+    font-size: 1rem;
     color: whitesmoke;
 }
 
@@ -83,6 +85,7 @@ nav ul li a{
     justify-content: center;
     height: auto;
     margin-top: 5rem;
+   
     gap: 20px;
 
 }
@@ -107,6 +110,7 @@ nav ul li a{
 .about_us{
     position: relative;
     padding:0 11rem;
+   
 }
 
 .about_us h2{
@@ -136,6 +140,7 @@ nav ul li a{
     color: rgb(15, 15, 15);
     margin: 15px 0;
     letter-spacing: .5px;
+    
     line-height: 2;
 }
 
@@ -568,31 +573,191 @@ nav ul li a{
 
  }
 
+ @media screen and (max-width:480px) {
+
+   
+  nav{
+   padding: 0 1rem;
+
+}
+
+   .header{
+      margin-top:50px ;
+      width: 100%;
+     
+ 
+  }
+
+
+  .text h2{
+   width: 50%;
+   color: #000;
+  }
+
+.logo img{
+   width: 5rem;
+}
+
+
+
+
+
+
+.text .See_our_service{
+   margin-top: 15px;
+}
+
+/* .perfect_solutions_cards{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   height: auto;
+   margin-top: 5rem;
+   gap: 20px;
+
+} */
+
+
+.perfect_solutions_cards{
+   width:100%;
+
+ 
+   
+}
+
+
+
+.perfect_solutions_cards{
+   width: 100%;
+   
+}
+
+.perfect_solutions_cards .card1 img{
+   /* width: 70vh; */
+   width: 100%;
+   margin-bottom: 1.5rem;
+   margin-right: 10px;
+}
+
+.perfect_solutions_cards .card1 p{
+   text-align: center;
+   margin: 0 20px 20px 20px ;
+   width: 100%;
+}
+
+.service_container{
+   padding: 0em;
+   height: auto;
+   
+  
+}
+
+.service_provide{
+   flex-direction: column;
+   width: 100%;
+   padding: 0;
+   
+ }
+
+ .marketing,
+.advertising,
+.Tech_Services {
+   background-color:white;
+   text-align: center;
+   padding: 10px;
+   width: 100%;
+
+   
+}
+
+.advertising{
+   height: 460px;
+   height: 500px;
+
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.Tech_Services{
+   height: 460px; 
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   height: 50%; 
+}
+.Tech_Services img{
+   width: 100%;
+
+  
+   
+}
+
+.marketing{
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+
+}
+
+.service_container{
+   width: 100%;
+   height: 100vh;
+   background-color: #000;
+   margin-top: 6rem;
+   padding-top: 0rem;
+   display: flex;
+   flex-direction: column;
+}
+}
+
+
+
+
+
  @media screen and (max-width:600px) {
    .text h2{
-      width: 100%;
-      font-size: 1.3rem;
-      color: whitesmoke;
+      width: 60%;
+      font-size: 1rem;
+     
      
   }
 
+  nav{
+   padding: 0 20px;
+  }
+
   .header{
-   height: 50vh;
+   height: 60vh;
+   
+   
+  }
+
+  .logo img{
+   width: 80px;
   }
 
   .header .text{
-   margin-top: 3rem;
+   margin-top: 12rem;
    width: 100%;
-   padding: 0 2rem;
+   padding: 0 1rem;
 
 }
+
+
 
 
 .perfect_solutions_cards{
    width: 100%;
    margin-top: 0px;
    flex-direction: column;
-   padding:90px ;
+   padding:20px ;
 }
 
 .perfect_solutions_cards .card1{
@@ -600,8 +765,6 @@ nav ul li a{
 }
 
 .about_us{
-  
-   position: relative;
    padding:0 1.8rem;
 }
 
@@ -635,14 +798,14 @@ nav ul li a{
 .service_container{
    padding: 1rem;
    height: auto;
+   padding: 0;
+   
   
 }
 
 .marketing h2{
-   width: 150px;
-   height: 150px;
-   font-weight: 600;
-   font-size: 16px;
+   width: 120px;
+   height: 120px;
    text-align: center;
    border-radius: 100%;
    padding-top: 4rem;
@@ -652,8 +815,8 @@ nav ul li a{
 
 .Tech_Services h2{
   
-   width: 150px;
-   height: 150px;
+   width: 120px;
+   height: 120px;
    font-weight: 600;
    font-size: 16px;
    text-align: center;
@@ -664,8 +827,8 @@ nav ul li a{
 }
 
 .advertising h2{
-   width: 150px;
-   height: 150px;
+   width: 120px;
+   height: 120px;
    font-weight: 600;
    font-size: 16px;
    text-align: center;
@@ -683,6 +846,8 @@ nav ul li a{
 .service_provide{
    flex-direction: column;
    width: 100%;
+   padding: 0;
+  
 
 }
 
@@ -734,7 +899,8 @@ nav ul li a{
 .service_container h1{
    color: beige;
    text-align: center;
-   margin-bottom: 2rem;
+   margin-bottom: 1rem;
+ 
 }
 
 .service_provide{
@@ -744,13 +910,13 @@ nav ul li a{
    gap: 30px;
 }
 
-.marketing,
-.advertising,
-.Tech_Services {
-   background-color: #fff;
+/* .marketing,
+.advertising, */
+.Tech_Services{
+   background-color: #f3eded;
    text-align: center;
    padding: 10px;
-   width: 100%;
+   width: 300px;
    
 }
 
@@ -765,17 +931,17 @@ nav ul li a{
 }
 
 .Tech_Services{
-   height: 460px;
+   /* height: 460px; */
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   height: 600px;
+   height: 50%;
 }
 .Tech_Services img{
    width: 100%;
 
-   margin-top: px;
+  
    
 }
 
@@ -785,6 +951,7 @@ nav ul li a{
    align-items: center;
    justify-content: center;
    flex-direction: column;
+   background-color: #e90e0e;
    
 
 }
@@ -880,7 +1047,8 @@ width: 100%;
 .recent_completed_container .title{
    display: flex;
    justify-content: space-between;
-   background-color: #000;
+   margin-left: 30px;
+  
 
 }
 
@@ -1007,6 +1175,7 @@ width: 100%;
       text-align: center;
       margin-bottom: 2rem;
    }
+
    
    .service_provide{
       display: flex;
@@ -1156,9 +1325,90 @@ font-size: .2rem;
 .about_us::before{
 display: none;
 
+
 }
 
+.recent_completed_container{
+   width: 100%; 
+   height: 320vh;
+   padding-left: 0;
+   padding-right: 10px;
+}
+
+.our_client_contn{
+   width: 100%;
+  
+   height: 170vh;
+
+}
+
+.recent_completed_container .cards{
+   width: 100%;
+   gap: 20px;
+ 
+ 
+
+
+}
+
+.cards .card{
    
+   box-shadow:1px 2px 20px 1px;
+   width: 100%;
+   
+}
+
+
+.cards .card img{
+   width: 100%;
+
+}
+
+
+
+
+
+
+/* .our_core_values .image img{
+  width: 100%;
+  margin-top: 90px;
+} */
+
+
+.criptude_webdesign{
+   background-color:#fff;
+   border: 1px solid rgba(0, 0, 0, 0.473);
+   padding: 10px;
+   width: 170px;
+   position: absolute;
+   top: 165px;
+   margin-left: 8px;
+}
+
+.footer{
+   height: 70vh;
+}
+
+}
+
+
+@media screen and (min-width:900px) {
+   .text h2{
+      font-size: 2.5rem;
+      width: 60%;
+   }
+
+  .logo img{
+   width: 90px;
+  }
+
+  .header .text{
+   margin-top: 14rem;
+   width: 100%;
+   
+
+}
+
    
 }
 
