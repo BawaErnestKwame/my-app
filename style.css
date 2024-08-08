@@ -5,9 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    overflow:scroll ;
-}
+
 
 html{
    scroll-behavior: smooth;
@@ -32,7 +30,7 @@ nav{
     top: 0;
     right: 0;  
     left: 0;
-    z-index: 999;
+    z-index: 1000;
 
 }
 
@@ -461,10 +459,13 @@ nav ul li a{
  .clientse p{
     font-size: 14px;
  }
+
+
  .clientse .profile img{
     width: 40px;
     margin-top: 30px;
  }
+
 
  .footer{
     padding-top: 30px;
@@ -479,11 +480,13 @@ nav ul li a{
 
  }
 
+
  .footer .subscribe img{
     width: 90px;
     margin-bottom: 15px;
 
  }
+
 
  .footer .links{
     display: flex;
@@ -491,14 +494,19 @@ nav ul li a{
     margin-bottom: 15px;
  }
 
+
  .footer .contact h1{
     margin-bottom: 15px;
  }
+
+
 
  .footer .links h1{
     margin-bottom: 15px;
 
  }
+
+
 
  .footer .links a{
     color: whitesmoke;
@@ -506,11 +514,13 @@ nav ul li a{
     margin: 3px 0;
  }
 
+
  .footer .contact a{
     color: whitesmoke;
     text-decoration: none;
     margin: 3px 0;
  }
+
 
 
  .footer .contact{
@@ -533,7 +543,7 @@ nav ul li a{
    position: fixed;
    top: 0;
    right: 0;
-   height: 100vh;
+   height: 100%;
    width: 250px;
    z-index: 999;
    display: flex;
@@ -576,67 +586,33 @@ nav ul li a{
  @media screen and (max-width:480px) {
 
    
-  nav{
-   padding: 0 1rem;
 
-}
 
-   .header{
-      margin-top:50px ;
-      width: 100%;
-     
+
+
+
  
-  }
-
-
-  .text h2{
-   width: 50%;
-   color: #000;
-  }
 
 .logo img{
    width: 5rem;
 }
 
-
-
-
-
-
 .text .See_our_service{
    margin-top: 15px;
 }
 
-/* .perfect_solutions_cards{
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   height: auto;
-   margin-top: 5rem;
-   gap: 20px;
-
-} */
-
 
 .perfect_solutions_cards{
-   width:100%;
-
- 
-   
+   margin-top: 0;
+   width:60vh;
 }
 
 
-
-.perfect_solutions_cards{
-   width: 100%;
-   
-}
 
 .perfect_solutions_cards .card1 img{
-   /* width: 70vh; */
    width: 100%;
    margin-bottom: 1.5rem;
-   margin-right: 10px;
+   
 }
 
 .perfect_solutions_cards .card1 p{
@@ -645,12 +621,7 @@ nav ul li a{
    width: 100%;
 }
 
-.service_container{
-   padding: 0em;
-   height: auto;
-   
-  
-}
+
 
 .service_provide{
    flex-direction: column;
@@ -659,62 +630,21 @@ nav ul li a{
    
  }
 
- .marketing,
-.advertising,
+
 .Tech_Services {
    background-color:white;
    text-align: center;
    padding: 10px;
    width: 100%;
-
-   
 }
 
-.advertising{
-   height: 460px;
-   height: 500px;
 
-  
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}
 
-.Tech_Services{
-   height: 460px; 
-    display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   height: 50%; 
-}
-.Tech_Services img{
-   width: 100%;
 
-  
-   
-}
 
-.marketing{
-   height: 50px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   
 
-}
 
-.service_container{
-   width: 100%;
-   height: 100vh;
-   background-color: #000;
-   margin-top: 6rem;
-   padding-top: 0rem;
-   display: flex;
-   flex-direction: column;
-}
+
 }
 
 
@@ -722,22 +652,38 @@ nav ul li a{
 
 
  @media screen and (max-width:600px) {
-   .text h2{
-      width: 60%;
-      font-size: 1rem;
+
+   .header{
+      height: auto;
+      background-color: rgba(112, 110, 110, 0.973);
+      width: 100%;
+   
      
-     
-  }
+   
+     }
+  
+
+  .about_us .infor p{
+   font-size: 16px;
+   color: rgb(15, 15, 15);
+   margin: 1px 0;
+   line-height: 2;
+}
+
+.about_us .infor{
+   margin-left: 20px;
+}
+
 
   nav{
    padding: 0 20px;
+
   }
 
-  .header{
-   height: 60vh;
-   
-   
-  }
+
+  
+
+
 
   .logo img{
    width: 80px;
@@ -745,7 +691,7 @@ nav ul li a{
 
   .header .text{
    margin-top: 12rem;
-   width: 100%;
+
    padding: 0 1rem;
 
 }
@@ -755,7 +701,6 @@ nav ul li a{
 
 .perfect_solutions_cards{
    width: 100%;
-   margin-top: 0px;
    flex-direction: column;
    padding:20px ;
 }
@@ -775,7 +720,6 @@ nav ul li a{
 
 .about_us::before{
  display: none;
-
 }
 
 
@@ -783,6 +727,10 @@ nav ul li a{
    width: 100%;
    flex-direction: column;
    padding:0 1.8rem;
+}
+
+.ourvission_our_mission p{
+   font-size: 16px;
 }
 
 .ourvission_our_mission h2{
@@ -795,13 +743,8 @@ nav ul li a{
 
 }
 
-.service_container{
-   padding: 1rem;
-   height: auto;
-   padding: 0;
-   
-  
-}
+
+
 
 .marketing h2{
    width: 120px;
@@ -838,17 +781,20 @@ nav ul li a{
    background: linear-gradient(45deg, rgba(255, 0, 255, 0.2), rgba(0, 0, 255, 0.2), rgba(0, 255, 0, 0.2));
 }
 
-.service_container{
-   flex-direction: column;
 
+.dotteted_border{
+   padding: 10px;
+   border: 5px dotted black;
+  
 }
+
+
+
 
 .service_provide{
    flex-direction: column;
    width: 100%;
    padding: 0;
-  
-
 }
 
 .row1{
@@ -891,7 +837,7 @@ nav ul li a{
 
 
 .service_container{
-   width: 100%;
+   width: 60vh;
    height: auto;
    flex-direction: column;
 }
@@ -899,68 +845,68 @@ nav ul li a{
 .service_container h1{
    color: beige;
    text-align: center;
-   margin-bottom: 1rem;
+   font-size: 1.5rem;
  
 }
 
 .service_provide{
+   
    display: flex;
    justify-content: center;
-   width: 100%;
    gap: 30px;
+
 }
 
-/* .marketing,
-.advertising, */
+
 .Tech_Services{
    background-color: #f3eded;
    text-align: center;
    padding: 10px;
    width: 300px;
-   
 }
 
 .advertising{
    height: 460px;
-   height: 500px;
-  
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
+   background-color: #f5f1f1;
+   width: 100%;
 }
 
 .Tech_Services{
-   /* height: 460px; */
+   height: 650px;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   height: 50%;
+   background-color: #f5f1f1;
+   padding: 10px;
+   width: 100%;
 }
+
+
 .Tech_Services img{
    width: 100%;
-
-  
-   
 }
 
+
+
 .marketing{
-   height: 460px;
+   height: 500px;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   background-color: #e90e0e;
-   
-
+   background-color: #f5f1f1;
+   width: 100%;
 }
 
 
 .Tech_Services p{
    font-size: 14px;
    line-height: 20px;
-
 }
 
 
@@ -969,6 +915,7 @@ nav ul li a{
    line-height: 20px;
    margin-bottom: 10px;
 }
+
 .advertising p{
    font-size: 14px;
    line-height: 20px;
@@ -1008,16 +955,15 @@ nav ul li a{
 }
 
 
-
-
-
-
-
-
 .our_core_values{
+   width: 100%;
    flex-direction: column;
    padding: 0 1.8rem;
   
+}
+
+.our_core_values .image img{
+   width: 53vh;
 }
 
 .recent_completed_container{
@@ -1040,7 +986,7 @@ width: 100%;
 }
 
 .recent_completed_container p{
-   font-size: 13px;
+   font-size: 14px;
    padding: 0 30px;
 }
 
@@ -1048,8 +994,6 @@ width: 100%;
    display: flex;
    justify-content: space-between;
    margin-left: 30px;
-  
-
 }
 
 .cards .card{
@@ -1070,9 +1014,9 @@ width: 100%;
  }
 
 
- .client_logos{
+   .client_logos{
  
- display: flex;
+      display: flex;
       margin-top: 40px;
       flex-wrap: wrap;
     
@@ -1094,8 +1038,10 @@ width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-top: 0;
     flex-direction: column;
  }
+
 
  .clientse{
    background-color: #fff;
@@ -1110,29 +1056,25 @@ width: 100%;
     margin: 30px 0;
  }
 
+
  .profile h1{
     font-size: 1.4rem;
     margin-bottom: 20px;
 
  }
 
+
  .clientse p{
     font-size: 14px;
  }
- /* .clientse .profile img{
-    width: 40px;
-    margin-top: 30px;
- } */
-
-
-
-
-
-
 
 
 .footer{
-   flex-wrap: wrap;
+   width: 100%;
+   padding-left: 30px;
+   flex-direction: column;
+   padding: 20px;
+   
    height: auto;
    gap: 30px;
 }
@@ -1147,207 +1089,46 @@ width: 100%;
    font-size: 2rem;
  }
 
-
-}
-
-
-@media screen and (max-width:480px) {
-   .service_container{
-      flex-direction: column;
-   
-   }
-   
-   .service_provide{
-      flex-direction: column;
-      width: 100%;
-   
-   }
-   
-   
-   .service_container{
-      width: 100%;
-      height: auto;
-      flex-direction: column;
-   }
-   
-   .service_container h1{
-      color: beige;
-      text-align: center;
-      margin-bottom: 2rem;
-   }
-
-   
-   .service_provide{
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      gap: 30px;
-      padding: 20%;
-   }
-   
-   .marketing,
-   .advertising,
-   .Tech_Services {
-      background-color: #fff;
-      text-align: center;
-      padding: 10px;
-      width: 90%;
-      
-   }
-   
-   .advertising{
-      border: 4px dotted solid black;
-      height: 350px;
-   }
-   
-   .Tech_Services{
-      border: dotted 4px solid black;
-      height: 460px;
-   }
-   
-   .marketing{
-      border:dotted 4px solid black;
-      height: 370px;
-      
-   
-   }
-   
-   
-   .Tech_Services p{
-      font-size: 14px;
-      line-height: 20px;
-   
-   }
-   
-   
-   .advertising h2{
-      font-size: 16px;
-      line-height: 20px;
-      margin-bottom: 10px;
-   }
-   .advertising p{
-      font-size: 14px;
-      line-height: 20px;
-   
-   }
-   
-   .marketing h2{
-      font-size: 14px;
-      line-height: 20px;
-      margin-bottom: 10px;
-   
-   
-   }
-   
-   .marketing p{
-      font-size: 14px;
-      line-height: 20px;
-   }
-   
-   
-   .Tech_Services h2{
-      font-size: 16px;
-      margin-bottom: 10px;
-     
-   }
-   
-   
-   .advertising h2{
-      font-size: 16px;
-   
-   }
-   
-   
-   
-   
-   .Tech_Services img{
-      width: 100%;
-      height: 120px;
-      margin: 10px 0;
-      
-   }
-
-
-   
-.footer{
-   width: 100%;
-   flex-direction: column;
-   padding-left: 20px;
+ .service_container{
+   width: 60vh;
    height: auto;
+   background-color: #020202;
+   margin-top: 2rem;
    gap: 20px;
-}
-
-.fa-bars{
-   color: #fff;
-   display: block;
-   font-size: 2rem;
- }
-
- .removeli{
-   display: none;
-}
-
-.text h2{
-   width: 100%;
-   font-size: 14px;
-   color: whitesmoke;
-}
-
-.header{
-   height: 30vh;
-
-}
-
-.header .text{
-margin-top: 30px;
-width: 100%;
-}
-
-.perfect_solutions_cards{
-width: 100%;
-flex-direction: column;
-}
-
-.perfect_solutions_cards .card1{
-width: 100%;
-}
-
-.about_us{
-position: relative;
-padding:0 0.6px;
-}
-
-.about_us h2{
-margin-bottom: 20px;
-font-size: .2rem;
-}
-
-.about_us::before{
-display: none;
-
-
-}
-
-.recent_completed_container{
-   width: 100%; 
-   height: 320vh;
-   padding-left: 0;
-   padding-right: 10px;
-}
-
-.our_client_contn{
-   width: 100%;
+   padding-top: 1rem;
   
-   height: 170vh;
-
 }
 
-.recent_completed_container .cards{
+
+
+.service_container h1{
+   color: beige;
+   text-align: center;
+   margin-bottom: 2rem;
+}
+
+
+.service_provide{
+   display: flex;
+   justify-content: center;
    width: 100%;
    gap: 20px;
- 
- 
+   padding: 0px;
+}
 
+
+.criptude_webdesign{
+   background-color:#fff;
+   border: 1px solid rgba(0, 0, 0, 0.473);
+   padding: 10px;
+   width: 170px;
+   position: absolute;
+   top: 350px;
+   margin-left: 120px;
+}
+
+.cards .card img{
+   width: 100%;
 
 }
 
@@ -1358,9 +1139,79 @@ display: none;
    
 }
 
-
-.cards .card img{
+.recent_completed_container .cards{
    width: 100%;
+   gap: 20px;
+  
+}
+
+.recent_completed_container{
+   width: 100%; 
+   height: 320vh;
+   padding-left: 0;
+   padding-right: 10px;
+}
+
+
+.about_us{
+   position: relative;
+   padding:0 0.6px;
+   }
+   
+   .about_us h2{
+   margin-bottom: 20px;
+   font-size: .2rem;
+   }
+   
+   .about_us::before{
+   display: none;
+}
+
+.fa-bars{
+   color: #fff;
+   display: block;
+   font-size: 2rem;
+ }
+
+
+ .removeli{
+   display: none;
+ }
+
+.header{
+   height: 40vh;
+   width: 60vh;
+
+}
+
+.header .text{
+margin-top: 70px;
+width: 80%;
+}
+
+.perfect_solutions_cards{
+width: 100%;
+flex-direction: column;
+}
+
+.perfect_solutions_cards .card1{
+width: 54vh;
+}
+
+.copy_rignt{
+   width: 100%;
+   text-align: center;
+   background-color: #000;
+   
+   color: whitesmoke;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   letter-spacing: 1px;
+
+}
+
+
+
 
 }
 
@@ -1369,27 +1220,16 @@ display: none;
 
 
 
-/* .our_core_values .image img{
-  width: 100%;
-  margin-top: 90px;
-} */
 
 
-.criptude_webdesign{
-   background-color:#fff;
-   border: 1px solid rgba(0, 0, 0, 0.473);
-   padding: 10px;
-   width: 170px;
-   position: absolute;
-   top: 165px;
-   margin-left: 8px;
-}
 
-.footer{
-   height: 70vh;
-}
 
-}
+
+
+
+
+
+
 
 
 @media screen and (min-width:900px) {
@@ -1402,12 +1242,17 @@ display: none;
    width: 90px;
   }
 
+
+
   .header .text{
    margin-top: 14rem;
    width: 100%;
    
 
 }
+
+
+
 
    
 }
