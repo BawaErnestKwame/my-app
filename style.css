@@ -552,11 +552,6 @@ nav ul li a{
    display: none;
  }
 
- .fa-bars{
-   color: #fff;
-   display: none;
- }
-
  .logo_sidebar{
    display: flex;
    justify-content: space-between;
@@ -575,21 +570,40 @@ nav ul li a{
  }
 
  .sidebar li{
-   z-index: 1000;
    margin-top: 30px;
    margin-left: 20px;
 
  }
 
  .removeli{
-   display: block;
+   display: flex;
+ }
+
+ .fa-bars{
+   display: none;
+   color: rgb(255, 253, 253);
+   font-size: 20px;
  }
 
 
 
-
+ 
 
  @media screen and (max-width:600px) {
+
+   .removeli{
+      display: none;
+    }
+   
+    .fa-bars{
+      display: block;
+      color: rgb(255, 253, 253);
+      font-size: 20px;
+    }
+
+
+
+
    .header{
       width: 100%;
       height: 70vh;
@@ -598,18 +612,15 @@ nav ul li a{
 
   nav{
    width: 100%;
-   background-color: #000;
-   padding: 0 .9rem;
+   background-color: #070707;
+   padding: 0 2rem;
 }
 
 .logo img{
    width: 6rem;
 }
 
-nav ul{
-  
-   display: none;
-}
+
 
 .header .text{
    margin-top: 14rem;
@@ -880,7 +891,7 @@ nav ul{
 .recent_completed_container{
    width: 100%;
    padding: 20px 0.9rem;
-   height: 340vh;
+   height: 410vh;
 }
 
  .title h2{
@@ -1077,12 +1088,11 @@ nav ul{
 
 
  .sidebar{
-   z-index: 1000;
-   display: block;
+    display: block; 
+    height: 100%;
  }
 
  .sidebar li{
-   z-index: 999;
    margin-top: 30px;
    margin-left: 20px;
 
@@ -1098,11 +1108,13 @@ nav ul{
  }
 
  .logo_sidebar img{
-   width: 100px;
+   width: 80px;
+   margin-top: 20px;
+   height: 40px;
  }
 
- .logo_sidebar .fa-xmark{
-   font-size: 30px;
+ .logo_sidebar.fa-xmark{
+   font-size: 20px;
    padding-right: 30px;
    padding-top: 20px;
  }
@@ -1120,8 +1132,6 @@ nav ul{
   .logo img{
    width: 90px;
   }
-
-
 
   .header .text{
    margin-top: 14rem;
